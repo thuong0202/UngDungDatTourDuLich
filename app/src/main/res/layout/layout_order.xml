@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_hinh"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/nam" />
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_ten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên" />
+
+            <TextView
+                android:id="@+id/tv_gioitinh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giới Tính" />
+
+            <TextView
+                android:id="@+id/tv_tuoi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tuổi" />
+
+            <TextView
+                android:id="@+id/tv_Sđt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Số điện thoại" />
+        </LinearLayout>
+        <CheckBox
+            android:id="@+id/cbitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+</LinearLayout>

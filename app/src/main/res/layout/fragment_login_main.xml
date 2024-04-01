@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".LoginMainFragment">
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:backgroundTint="#274a8c"
+
+        android:drawableLeft="@drawable/card_credit_debit_payment_icon"
+        android:drawableTint="@color/white"
+
+        android:text="Đăng nhập bằng mã thẻ du lịch"
+        android:textAlignment="viewStart" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bạn chưa có thẻ? " />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:padding="0dp"
+            android:text="Đăng ký ngay"
+            android:textAlignment="viewStart"
+            android:textColor="#103975" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:backgroundTint="#2681ae"
+
+        android:drawableLeft="@drawable/mobile_phone_icon"
+        android:drawableTint="@color/white"
+
+        android:text="Đăng nhập bằng số điện thoại"
+        android:textAlignment="viewStart" />
+
+    <Button
+        android:id="@+id/login_no_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#2bb0c3"
+        android:drawableLeft="@drawable/user_profile_account_icon"
+        android:drawableTint="@color/white"
+        android:text="Đăng nhập không cần đăng ký"
+        android:textAlignment="viewStart" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/design_default_color_background"
+        android:text="Quên mật khẩu?"
+        android:textAlignment="viewStart"
+        android:textColor="#103975" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/design_default_color_background"
+            android:drawableLeft="@drawable/book_small"
+            android:drawableTint="#2bb0c3"
+            android:paddingLeft="0dp"
+            android:text="Hướng dẫn sử dụng"
+            android:textAlignment="viewStart"
+            android:textColor="#103975" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/design_default_color_background"
+            android:drawableLeft="@drawable/newspaper_small"
+            android:drawableTint="#2bb0c3"
+            android:paddingRight="0dp"
+            android:text="Tin tức"
+            android:textAlignment="viewStart"
+            android:textColor="#103975" />
+    </LinearLayout>
+
+</LinearLayout>

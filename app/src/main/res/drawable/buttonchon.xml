@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:shape="rectangle">
+    <corners android:radius="20dp" /> <!-- Điều chỉnh bán kính để làm cong -->
+    <solid android:color="@android:color/transparent" /> <!-- Màu nền trong suốt -->
+    <stroke
+        android:width="2dp"
+        android:color="@android:color/system_accent1_100"
+        tools:ignore="NewApi"
+
+        />
+
+
+</shape>

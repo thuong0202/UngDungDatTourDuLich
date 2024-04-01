@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Admin_layout.Admin_element.AdminFragment">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ"
+        android:textAlignment="center"
+        android:textColor="#274a8c"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/design_default_color_background"
+        android:drawableLeft="@drawable/baseline_tour_24"
+        android:drawableTint="#2bb0c3"
+        android:text="Quản Lý Tour"
+        android:textAlignment="viewStart"
+        android:textColor="#103975" />
+    <Button
+        android:id="@+id/ad_travel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/design_default_color_background"
+        android:drawableLeft="@drawable/baseline_directions_walk_24"
+        android:drawableTint="#2bb0c3"
+        android:text="Quản Lý Hướng Dẫn Viên"
+        android:textAlignment="viewStart"
+        android:textColor="#103975" />
+
+    <Button
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/design_default_color_background"
+        android:drawableLeft="@drawable/baseline_category_24"
+        android:drawableTint="#2bb0c3"
+        android:text="Quản Lý Danh Mục"
+        android:textAlignment="viewStart"
+        android:textColor="#103975" />
+
+
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/design_default_color_background"
+        android:drawableLeft="@drawable/baseline_shopping_cart_24"
+        android:drawableTint="#2bb0c3"
+        android:text="Quản Lý Đơn Hàng"
+        android:textAlignment="viewStart"
+        android:textColor="#103975" />
+
+    <Button
+        android:id="@+id/guest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/design_default_color_background"
+        android:drawableLeft="@drawable/user_small"
+        android:drawableTint="#2bb0c3"
+        android:text="Khách Hàng"
+        android:textAlignment="viewStart"
+        android:textColor="#103975" />
+
+</LinearLayout>

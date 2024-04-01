@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DuLichVietNam"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Oder"
+            android:exported="false" />
+        <activity
+            android:name=".EditPassWord"
+            android:exported="false" />
+        <activity
+            android:name=".Userdetail"
+            android:exported="false" />
+        <activity
+            android:name=".AdTour.AdTour_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ThanhtoanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OderDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_layout.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityHanhTrinhDetail"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitySanpham"
+            android:exported="false" />
+        <activity
+            android:name=".ui.AdminLayoutActivity"
+            android:exported="false"
+            android:label="@string/title_activity_admin_layout"
+            android:theme="@style/Theme.DuLichVietNam.NoActionBar" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".btnchon"
+            android:exported="false" />
+        <activity
+            android:name=".Tourchitiet"
+            android:exported="false" />
+        <activity
+            android:name=".Tourdulich"
+            android:exported="false" />
+        <activity
+            android:name=".HanhTrinh"
+            android:exported="false" />
+        <activity
+            android:name=".ThongBao"
+            android:exported="false" />
+        <activity
+            android:name=".CaiDat"
+            android:exported="false" />
+        <activity
+            android:name=".DangKy"
+            android:exported="false" />
+        <activity
+            android:name=".DangNhap"
+            android:exported="false" />
+        <activity
+            android:name=".DangNhapDk"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
